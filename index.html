@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/assignment.css">
+    <link rel="stylesheet" href="css_phone/assignment_phone.css" media="(max-width:426px)">
+    <link rel="stylesheet" href="css_tab/assignment_tab.css" media='screen and
+            (min-width: 427px) and (max-width: 768px)'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Assignment</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="firstdiv">
+            <div class="userinfo">
+                <p id="userinfo_teacher"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Teacher</p>
+                <p id="userinfo_assignment"><i class="fa fa-th-large" aria-hidden="true"></i> &nbsp Assignments</p>
+            </div>
+            <div class="assignmentinfo">
+                <div class="innerdiv">
+                    <div class="welcomeinfo">
+                        Welcome To Assignments <button id="add_assignments"><i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp&nbsp Add Assignmnet</button>
+                    </div>
+                    <div class="assignmentType">
+                        <div class="assignment">
+                            <p class="ass_type">Trigonometry Assignment</p>
+                            <p class="ass_total"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Total Submission :
+                                <Span id="ass_count">10</Span>
+                            </p>
+                            <p class="ass_dot"><a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a></p>
+                        </div>
+                        <div class="assignment">
+                            <p class="ass_type">Quadrilateral Assignment</p>
+                            <p class="ass_total"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Total Submission :
+                                <Span id="ass_count">10</Span>
+                            </p>
+                            <p class="ass_dot"><a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a></p>
+                        </div>
+                        <div class="assignment">
+                            <p class="ass_type">Trigonometry Assignment</p>
+                            <p class="ass_total"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Total Submission :
+                                <Span id="ass_count">10</Span>
+                            </p>
+                            <p class="ass_dot"><a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a></p>
+                        </div>
+                        <div class="assignment">
+                            <p class="ass_type">Trigonometry Assignment</p>
+                            <p class="ass_total"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Total Submission :
+                                <Span id="ass_count">10</Span>
+                            </p>
+                            <p class="ass_dot"><a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="firstdiv">
+            <div class="userinfo">
+                <p id="userinfo_teacher"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Teacher</p>
+                <p id="userinfo_assignment"><i class="fa fa-th-large" aria-hidden="true"></i> &nbsp Assignments</p>
+            </div>
+            <div class="assignmentinfo">
+                <div class="innerdiv">
+                    <div class="welcomeinfo" style="font-weight: 550;">
+                        Create Assignment
+                    </div>
+                    <div class="assignmentType">
+                        <div class="assignment_titleInstruction">
+                            <p>Title</p>
+                            <input type="text" class="titleofAssignment">
+                        </div>
+                        <div class="assignment_titleInstruction">
+                            <p>Instructions</p>
+                            <input type="text" class="titleofAssignment">
+                        </div>
+                        <div class="assignment_titleInstruction">
+                            <input type="file" id="upload" class="addFile" hidden/>
+                            <label for="upload">Add File &nbsp;<i class="fa fa-upload" aria-hidden="true"></i></label>
+                            <input type="file" id="upload" class="addAssignment" hidden/>
+                            <label for="upload"><i class="fa fa-plus-circle" aria-hidden="true"></i> &nbsp;&nbsp Add Assignments</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="firstdiv">
+            <div class="userinfo">
+                <p id="userinfo_teacher"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Student</p>
+                <p id="userinfo_assignment"><i class="fa fa-th-large" aria-hidden="true"></i> &nbsp Assignments</p>
+            </div>
+            <div class="assignmentinfo">
+                <div class="innerdiv">
+                    <div class="welcomeinfo" style="font-weight: 550;">
+                        Trigonometry Assignments <button id="view_assignments">View Assignmnet Uploads</button>
+                    </div>
+                    <div class="assignmentType">
+                        <div class="assignment_titleInstruction">
+                            <p>Write Assignment</p>
+                            <textarea class="titleofAssignment" rows="8"></textarea>
+                        </div>
+                        <div class="assignment_titleInstruction">
+                            <input type="file" id="upload" class="addFilestudent" hidden/>
+                            <label for="upload">Add File &nbsp;<i class="fa fa-upload" aria-hidden="true"></i></label>
+                            <input type="submit" class="submitstudent" hidden/>
+                            <label>Submit</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
