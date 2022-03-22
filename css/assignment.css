@@ -1,0 +1,171 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main {
+  width: 100vw;
+  height: auto;
+  font-family: sans-serif;
+}
+
+.main .firstdiv {
+  height: auto;
+  background-color: pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .firstdiv .userinfo {
+  width: 20%;
+  height: auto;
+  background-color: #15222B;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 2.3rem;
+}
+
+.main .firstdiv .userinfo #userinfo_teacher {
+  margin: 3rem 0;
+}
+
+.main .firstdiv .userinfo #userinfo_assignment {
+  margin: 1rem 0;
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  background-color: #333b44;
+}
+
+.main .firstdiv .assignmentinfo {
+  width: 80%;
+  height: auto;
+  background-color: whitesmoke;
+}
+
+.main .firstdiv .assignmentinfo .innerdiv {
+  height: auto;
+  margin: 4rem 5rem;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
+}
+
+.main .firstdiv .assignmentinfo .innerdiv .welcomeinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+}
+
+.main .firstdiv .assignmentinfo .innerdiv .welcomeinfo button {
+  padding: 1.2rem 1.8rem;
+  background-color: #15222B;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.main .firstdiv .assignmentinfo .innerdiv .assignmentType {
+  margin-top: 2rem;
+}
+
+.main .firstdiv .assignmentinfo .innerdiv .assignmentType .assignment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.8rem;
+  margin: 1.3rem 0;
+  padding: 2rem;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  color: #15222B;
+}
+
+.main .firstdiv .assignmentinfo .innerdiv .assignmentType .assignment .ass_type {
+  font-weight: 550;
+}
+
+.main .firstdiv .assignmentinfo .innerdiv .assignmentType .assignment .ass_total {
+  font-size: 1.4rem;
+}
+
+.main .firstdiv .assignmentinfo .innerdiv .assignmentType .assignment .ass_dot a {
+  color: #15222B;
+  text-decoration: none;
+}
+
+.main .firstdiv .assignmentinfo .innerdiv .assignmentType .assignment_titleInstruction {
+  font-weight: 550;
+  margin: 1.5rem 0;
+}
+
+.main .firstdiv .assignmentinfo .innerdiv .assignmentType .assignment_titleInstruction p {
+  font-size: 1.8rem;
+}
+
+.main .firstdiv .assignmentinfo .innerdiv .assignmentType .assignment_titleInstruction .titleofAssignment {
+  width: 100%;
+  font-size: 1.7rem;
+  margin: 1.3rem 0;
+  padding: 1.6rem;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  color: #15222B;
+  border: none;
+  outline: none;
+}
+
+.main .firstdiv .assignmentinfo .innerdiv .assignmentType .assignment_titleInstruction label {
+  font-size: 1.4rem;
+  display: inline-block;
+  padding: 1.5rem 2.3rem;
+  background-color: #15222B;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-right: 2rem;
+  font-weight: normal;
+}
+
+.main .line {
+  padding: 0.5rem;
+  background-color: black;
+}
+/*# sourceMappingURL=assignment.css.map */

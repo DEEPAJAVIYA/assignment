@@ -1,0 +1,130 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main {
+    width: 100vw;
+    height: auto;
+    font-family: sans-serif;
+    .firstdiv {
+        height: auto;
+        background-color: pink;
+        display: flex;
+        .userinfo {
+            width: 20%;
+            height: auto;
+            background-color: #15222B;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            font-size: 2.3rem;
+            #userinfo_teacher {
+                margin: 3rem 0;
+            }
+            #userinfo_assignment {
+                margin: 1rem 0;
+                padding: 1rem 3rem;
+                border-radius: 10px;
+                background-color: rgb(51, 59, 68);
+            }
+        }
+        .assignmentinfo {
+            width: 80%;
+            height: auto;
+            background-color: whitesmoke;
+            // border: 1px solid black;
+            .innerdiv {
+                height: auto;
+                margin: 4rem 5rem;
+                background-color: #fff;
+                // border: 1px solid black;
+                display: flex;
+                flex-direction: column;
+                padding: 2rem;
+                .welcomeinfo {
+                    // border: 1px solid red;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-size: 2rem;
+                    // font-weight: 550;
+                    button {
+                        padding: 1.2rem 1.8rem;
+                        background-color: #15222B;
+                        color: #fff;
+                        border-radius: 10px;
+                        cursor: pointer;
+                    }
+                }
+                .assignmentType {
+                    margin-top: 2rem;
+                    // border: 1px solid red;
+                    .assignment {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        font-size: 1.8rem;
+                        margin: 1.3rem 0;
+                        padding: 2rem;
+                        border-radius: 20px;
+                        background-color: whitesmoke;
+                        color: #15222B;
+                        .ass_type {
+                            font-weight: 550;
+                        }
+                        .ass_total {
+                            font-size: 1.4rem;
+                        }
+                        .ass_dot {
+                            a {
+                                color: #15222B;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    .assignment_titleInstruction {
+                        font-weight: 550;
+                        margin: 1.5rem 0;
+                        p {
+                            font-size: 1.8rem;
+                        }
+                        .titleofAssignment {
+                            width: 100%;
+                            font-size: 1.7rem;
+                            margin: 1.3rem 0;
+                            padding: 1.6rem;
+                            border-radius: 10px;
+                            background-color: whitesmoke;
+                            color: #15222B;
+                            border: none;
+                            outline: none;
+                        }
+                        label {
+                            font-size: 1.4rem;
+                            display: inline-block;
+                            padding: 1.5rem 2.3rem;
+                            background-color: #15222B;
+                            color: #fff;
+                            border-radius: 25px;
+                            cursor: pointer;
+                            margin-right: 2rem;
+                            font-weight: normal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .line {
+        padding: 0.5rem;
+        background-color: black;
+    }
+}
