@@ -1,0 +1,51 @@
+.main {
+    .firstdiv {
+        display: flex;
+        flex-direction: column;
+        .userinfo {
+            width: 100%;
+            font-size: 2rem;
+            #userinfo_teacher {
+                margin: 2rem 0;
+            }
+            #userinfo_assignment {
+                margin: 0.5rem 0 2rem 0;
+            }
+        }
+        .assignmentinfo {
+            width: 100%;
+            .innerdiv {
+                margin: 3rem 2rem;
+                .welcomeinfo {
+                    font-size: 1.7rem;
+                    button {
+                        padding: 1.5rem;
+                    }
+                }
+                .assignmentType {
+                    .assignment {
+                        display: flex;
+                        flex-direction: column;
+                        font-size: 1.6rem;
+                        .ass_type {
+                            font-weight: 550;
+                        }
+                        .ass_total {
+                            margin-top: 0.5rem;
+                            font-size: 1.4rem;
+                        }
+                        .ass_dot {
+                            margin-top: 0.5rem;
+                        }
+                    }
+                    .assignment_titleInstruction {
+                        label {
+                            font-size: 1.4rem;
+                            padding: 1.5rem 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
